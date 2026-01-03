@@ -11,6 +11,8 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MotorsPwmControl.msg"
+  "msg/LightControl.msg"
+  "msg/ROMURControl.msg"
 )
 
 if(BUILD_TESTING)
